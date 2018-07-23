@@ -2,9 +2,7 @@
 
 #test.msg()
 from test import msg
-
+#from test import *
 msg()
 
-print("单位")
-print("手机号")
 
