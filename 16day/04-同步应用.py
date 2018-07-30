@@ -22,7 +22,7 @@ class Task3(Thread):
         while True:
             if lock3.acquire():
                 print("------Task 3 -----")
-                sleep(0.5)
+                sleep(0.5)0.
                 lock1.release()
 
 #使用Lock创建出的锁默认没有“锁上”
